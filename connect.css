@@ -1,0 +1,81 @@
+	/* HOME */
+/*BACKGROUND IMAGE*/
+image{
+	z-index: -1;
+	height: 100%;
+
+}
+
+/*FORM*/
+form input[type = "text"],form input[type = "email"]{
+	text-align: center;
+	color: black;
+	/*background: none;*/
+}
+
+textarea{
+	text-align: center;
+	color: black;
+	background: none;
+}
+
+	/*ABOUT*/
+.extra_space{
+	color: #ffb8b8;
+}
+
+body{
+	background-color:#ffb8b8;
+}
+p{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/*IMAGE*/
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 57%;
+	/*position:relative;
+	top: 70px;*/
+	border-radius: 5px;
+	height:400px;
+	z-index: 5;
+}
+	/*FOOTER*/
+hr{
+	height: 3px;
+	background-color: black;
+}
+
+.heart{
+	color: red;
+}
+
+.other_links{
+	padding-left: 20px;
+}
+
+.top_button{
+	position: fixed;
+	left: 90%;
+	bottom: 8px;
+	height: 42px;
+	width: 42px;
+	border: 2px solid black;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	background-color: #00B0FF;
+	z-index: 1;
+}	
+
+/*HEADER*/
+#navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
